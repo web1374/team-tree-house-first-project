@@ -91,7 +91,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
@@ -249,4 +249,23 @@ textarea {
 .experiance {
   margin-top: 160px;
   padding-top: 10px;
+}
+.img-list {
+  text-align: center;
+  display: flexbox;
+  }
+.image-1{
+  padding: 15px 20px;
+  height: 200px;
+  border-radius: 15%;
+}
+.image-2{
+  padding: 15px 20px;
+  height: 200px;
+  border-radius: 15%;
+}
+.image-3{
+  padding: 15px 20px;
+  height: 200px;
+  border-radius: 15%;
 }
