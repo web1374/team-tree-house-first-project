@@ -1,4 +1,4 @@
-
+/* general reset for the page */
 * { 
   box-sizing: border-box;
 }
@@ -19,8 +19,7 @@ a {
 a:hover {
   color: #6633ff;
 }
-
-
+/* navigation */
 .main-navigation {
   width: 100%;
   background: black;
@@ -49,10 +48,11 @@ a:hover {
 .navbar a {
   transition: all .5s;
 }
+/* hover effects */
 .navbar a:hover {
   color: lightblue;
 }
-
+/* header section */
 header {
   text-align: center;
   background: url('images/background.png') no-repeat center center/cover ;
@@ -87,6 +87,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
+/* stylying for background , goals and interests */
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -97,6 +98,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+/* hover effects */
 .card:hover {
   border-color: #6cd8ab;
 }
@@ -130,6 +132,7 @@ text-align: center;
   padding: 10px 15px;
   margin: 4px;
 }
+/* footer styling */
 footer {
   width: 100%;
   min-height: 30px;
@@ -170,8 +173,7 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
-
+/* media queries */
 @media screen and (min-width: 720px) {
   
   .flex {
@@ -206,7 +208,7 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
+/* contact page styling */
 }
 input[type=text], select, textarea {
   width: 100%; 
@@ -218,7 +220,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px; 
   resize: vertical 
 }
-
+/* contact page styling */
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
@@ -227,7 +229,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+/* contact page styling */
 input[type=submit]:hover {
   background-color: #45a049;
 }
@@ -246,10 +248,12 @@ input[type=submit]:hover {
 textarea {
   height : 300px;
 }
+/* experience page styling */
 .experiance {
   margin-top: 160px;
   padding-top: 10px;
 }
+/* home-page bottom page image styling */
 .img-list {
   text-align: center;
   display: flexbox;
